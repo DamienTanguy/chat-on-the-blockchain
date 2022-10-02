@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MessagePortal />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// Based on https://soliditytips.com/articles/web3-simple-app-vuejs-hardhat
+import MessagePortal from './components/MessagePortal.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MessagePortal
   }
 }
 </script>
